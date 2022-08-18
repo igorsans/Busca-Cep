@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Input = () => {
+const Input = ({handleChange}) => {
+
+
   return (
-    <input type="text"></input>
+    <input type="text" onChange={handleChange}></input>
   )
 }
 
